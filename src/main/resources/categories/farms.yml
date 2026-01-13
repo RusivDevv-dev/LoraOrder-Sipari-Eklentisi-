@@ -1,0 +1,40 @@
+name: 'Tarım'
+icon:
+  material: WHEAT
+  name: '&a&lTarım Ürünleri'
+  lore:
+    - '&7Tarımla ilgili ürünler'
+    - ''
+    - '&eTıklayarak ürünleri gör!'
+items:
+  - WHEAT
+  - CARROT
+  - POTATO
+  - BEETROOT
+  - MELON
+  - PUMPKIN
+  - SUGAR_CANE
+  - CACTUS
+  - BAMBOO
+  - APPLE
+  - SWEET_BERRIES
+  - GLOW_BERRIES
+  - COCOA_BEANS
+  - CHORUS_FRUIT
+  - KELP
+  - SEA_PICKLE
+  - LILY_PAD
+  - VINE
+  - BROWN_MUSHROOM
+  - RED_MUSHROOM
+  - CRIMSON_FUNGUS
+  - WARPED_FUNGUS
+  - NETHER_WART
+  - WHEAT_SEEDS
+  - PUMPKIN_SEEDS
+  - MELON_SEEDS
+  - BEETROOT_SEEDS
+  - HAY_BLOCK
+  - DRIED_KELP_BLOCK
+  - HONEYCOMB
+  - HONEY_BOTTLE

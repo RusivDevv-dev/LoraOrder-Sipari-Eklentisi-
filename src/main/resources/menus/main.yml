@@ -1,0 +1,29 @@
+title: '&6&lSipariş Sistemi'
+size: 27
+items:
+  create-order:
+    slot: 11
+    material: WRITABLE_BOOK
+    name: '&a&lSipariş Ver'
+    lore:
+      - '&7Yeni bir sipariş oluştur'
+      - ''
+      - '&eTıklayarak aç!'
+  orders:
+    slot: 13
+    material: CHEST
+    name: '&e&lSiparişler'
+    lore:
+      - '&7Aktif siparişleri görüntüle'
+      - '&7ve sipariş ver'
+      - ''
+      - '&eTıklayarak aç!'
+  storage:
+    slot: 15
+    material: ENDER_CHEST
+    name: '&b&lDepo'
+    lore:
+      - '&7Deponuzdaki itemleri'
+      - '&7görüntüleyin'
+      - ''
+      - '&eTıklayarak aç!'

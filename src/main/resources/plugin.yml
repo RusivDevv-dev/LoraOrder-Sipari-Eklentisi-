@@ -1,0 +1,21 @@
+name: LoraOrder
+version: '3.6.1'
+main: com.lora.loraorder.LoraOrder
+api-version: 1.19
+author: RusivDevv
+softdepend: [Vault]
+commands:
+  sipariş:
+    description: Sipariş menüsünü açar
+    aliases: [siparis, order]
+  siparişkaldır:
+    description: Bir siparişi kaldırır
+    usage: /<command> <sipariş_id>
+    aliases: [sipariskaldır, sipariskkaldir, removeorder]
+permissions:
+  loraorder.use:
+    description: Sipariş sistemini kullanma izni
+    default: true
+  loraorder.admin:
+    description: Admin yetkisi
+    default: op

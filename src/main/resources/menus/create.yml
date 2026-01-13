@@ -1,0 +1,43 @@
+title: '&6&lSipariş Oluştur'
+size: 27
+items:
+  price-input:
+    slot: 11
+    material: GOLD_INGOT
+    name: '&e&lFiyat Gir'
+    lore:
+      - '&7Tane başına fiyat'
+      - '&7belirleyin'
+      - ''
+      - '&eTıklayarak gir!'
+  amount-input:
+    slot: 13
+    material: PAPER
+    name: '&a&lMiktar Gir'
+    lore:
+      - '&7Sipariş miktarını'
+      - '&7belirleyin'
+      - ''
+      - '&eTıklayarak gir!'
+  preview:
+    slot: 15
+    material: BOOK
+    name: '&b&lSipariş Önizlemesi'
+    lore:
+      - '&7Siparişinizi önizleyin'
+      - ''
+      - '&eTıklayarak görüntüle!'
+  create:
+    slot: 22
+    material: EMERALD
+    name: '&a&l✓ Sipariş Oluştur'
+    lore:
+      - '&7Siparişi oluştur'
+      - ''
+      - '&eTıklayarak oluştur!'
+  back:
+    slot: 18
+    material: ARROW
+    name: '&c&lGeri'
+    lore:
+      - '&7Kategori seçimine dön'

@@ -1,0 +1,7 @@
+max-active-orders: 5
+max-order-amount: 9999
+min-order-price: 1.0
+max-order-price: 1000000.0
+
+announcements:
+  enabled: true

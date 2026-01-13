@@ -1,0 +1,9 @@
+title: '&6&lKategori Seçin'
+size: 54
+items:
+  back:
+    slot: 49
+    material: ARROW
+    name: '&c&lGeri'
+    lore:
+      - '&7Ana menüye dön'

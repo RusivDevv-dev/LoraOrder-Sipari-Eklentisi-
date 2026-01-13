@@ -1,0 +1,62 @@
+﻿prefix: '&6[LoraOrder]&r'
+
+only-players: '{prefix} &cBu komutu sadece oyuncular kullanabilir!'
+no-permission: '{prefix} &cBunu yapmak için yetkiniz yok!'
+
+order-created: '{prefix} &aSipariş oluşturuldu! &7(ID: &e{id}&7) &c-{total} TL ödendi'
+order-created-announcement: '&6&l[YENİ SİPARİŞ] &e{item} &7x&f{amount} &8• &a{price} TL/adet'
+incomplete-order-data: '{prefix} &cLütfen önce fiyat ve miktar belirleyin!'
+max-orders-reached: '{prefix} &cMaksimum aktif sipariş limitine ulaştınız! &7(Limit: {limit})'
+not-enough-money: '{prefix} &cYetersiz bakiye! &7Gerekli: &e{required} TL &7• Bakiyeniz: &e{balance} TL'
+cannot-fulfill-own-order: '{prefix} &cKendi siparişinize teslim edemezsiniz!'
+ # Order ekranındaki kısımda ön izleme kısmı
+order-preview-title: '&6&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+order-preview-header: '&e&l⚡ Sipariş Önizlemesi'
+order-preview-item: '&7Ürün: &f{item}'
+order-preview-amount: '&7Miktar: &f{amount} adet'
+order-preview-price: '&7Fiyat: &a{price} TL&7/adet'
+order-preview-total: '&7Toplam Ödeme: &c{total} TL'
+order-preview-balance: '&7Mevcut Bakiye: &e{balance} TL'
+order-preview-sufficient: '&a✓ Yeterli bakiye var!'
+order-preview-insufficient: '&c✗ Yetersiz bakiye!'
+order-preview-footer: '&6&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+
+order-not-found: '{prefix} &cSipariş bulunamadı!'
+not-your-order: '{prefix} &cBu sipariş size ait değil!'
+order-removed: '{prefix} &aSipariş kaldırıldı! &7(ID: &e{id}&7)'
+order-remove-failed: '{prefix} &cSipariş kaldırılamadı!'
+remove-order-usage: '{prefix} &cKullanım: &e/siparişkaldır <sipariş_id>'
+
+not-enough-items: '{prefix} &cYeterli iteminiz yok!'
+order-fulfilled: '{prefix} &a{amount} adet {item} teslim ettiniz! &e+{payment} TL kazandınız!'
+&a&lѕᴋʏʟᴏʀᴀ &8»
+inventory-full: '{prefix} &cEnvanteriniz dolu!'
+items-withdrawn: '{prefix} &a{amount} adet {item} deponuzdan çekildi!'
+withdraw-failed: '{prefix} &cÇekme işlemi başarısız!'
+ # Menü Mesajları.
+menu-main-title: '&6&lSipariş Sistemi'
+menu-category-title: '&6&lKategori Seçin'
+menu-item-selection-title: '&e&lÜrün Seçin - {category}'
+menu-order-creation-title: '&6&lSipariş Oluştur'
+menu-orders-title: '&2&lAktif Siparişler'
+menu-storage-title: '&5&lDeponuz'
+
+prompt-price-input: '&6Tane başına fiyatı girin &7(İptal için &ccancel &7yazın)&6:'
+prompt-price-set: '{prefix} &aFiyat ayarlandı: &e{price} TL/adet'
+prompt-price-too-low: '{prefix} &cMinimum fiyat: &e{min} TL'
+prompt-price-too-high: '{prefix} &cMaksimum fiyat: &e{max} TL'
+
+prompt-amount-input: '&6Miktar girin &7(İptal için &ccancel &7yazın)&6:'
+prompt-amount-set: '{prefix} &aMiktar ayarlandı: &e{amount} adet'
+prompt-amount-invalid: '{prefix} &cMiktar pozitif olmalıdır!'
+prompt-amount-too-high: '{prefix} &cMaksimum miktar: &e{max} adet'
+
+prompt-fulfill-input: '&6Kaç adet teslim etmek istiyorsunuz? &7(Maks: &e{max}&7, İptal: &ccancel&7)&6:'
+prompt-fulfill-invalid: '{prefix} &cGeçersiz miktar!'
+
+prompt-withdraw-input: '&6Kaç adet çekmek istiyorsunuz? &7(Maks: &e{max}&7, İptal: &ccancel&7)&6:'
+prompt-withdraw-invalid: '{prefix} &cGeçersiz miktar!'
+
+prompt-cancelled: '{prefix} &cİşlem iptal edildi.'
+
+item-name-format: '&f{name}'
